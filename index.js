@@ -17,7 +17,7 @@ var log = console.log;
 var src_glob = path.normalize(process.cwd() + '/' + process.argv[2]) // a glob pattern eg: ./src/**/*.less
 var dir_out = path.normalize(process.cwd() + '/' + process.argv[3]) // directory to put output css eg: lib
 
-// options for cpx, used for the Less to Css stram transform
+// options for cpx, used for the Less to Css stream transform
 var cpxOptions = {
     transform: function (file) {
         return lessCssStream(file)
