@@ -1,6 +1,6 @@
 {
   "name": "lessc-glob",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A node package that compiles **ALL** *.less* files in a directory and copy the entire structure to another directory.",
   "main": "index.js",
   "scripts": {
