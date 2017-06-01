@@ -19,10 +19,7 @@ var dir_out = path.normalize(process.cwd() + '/' + process.argv[3]) // directory
 
 // options for cpx, used for the Less to Css stream transform
 var cpxOptions = {
-    transform: function (file) {
-        return lessCssStream(file)
-               .pipe(log(chkInfo(`Parsing - `) + chkDim(`${file}`)));
-    }
+    transform: lessCssStream
 }
 
 log(chkMessage(`process started at ${new Date().toLocaleTimeString()}`));
