@@ -32,7 +32,7 @@ log(chkDim('--------------------------------------------------------------'));
 
 /* 
 cpx will copy the whole structure as is,
-while passing it through a transformer stram (less to css stream) and parsing each file to css.
+while passing each file through a transform stream (less to css stream) and parsing each file to css.
 this didn't changed the .less extension, we will change it later on.
 */
 cpx.copy(src_glob, dir_out, cpxOptions, function () {
