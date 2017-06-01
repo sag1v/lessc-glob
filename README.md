@@ -40,7 +40,7 @@ lesscGlob([glob], [target])
 
 Required
 
-1. Make sure you pass only `.less` files in your glob.
+Make sure you pass only `.less` files in your glob.
 
 
 ## Changelog
