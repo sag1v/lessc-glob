@@ -1,9 +1,9 @@
 # lessc-glob
 A node package that compiles **ALL** *.less* files in a directory and copy the entire structure to another directory.
 
-This module takes a glob pattern and a target directory.
-Its parsing **ALL** *.less* files in that given pattern to *.css*,
-puts the CSS files into the specified traget directory (as *.css* files) while keeping the same structure of directories.
+This module takes a glob pattern and a target directory.  
+It will parse **ALL** `.less` files in that given pattern to `.css` syntax,  
+and will write the `CSS` files into the specified traget directory while keeping the same structure of directories.
 
 This function ***does*** run recursively, that is, it *does* look inside subdirectories (with the help of *glob*).
 
