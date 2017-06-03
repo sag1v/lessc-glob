@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 var glob = require("glob");
 var path = require('path');
 var fs = require('fs');
