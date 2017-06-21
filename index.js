@@ -29,7 +29,7 @@ log(chkDim(`source glob - ${src_glob}`));
 log(chkDim(`destination - ${dir_out}`));
 log(chkDim('--------------------------------------------------------------'));
 
-/* 
+/*
 cpx will copy the whole structure as is,
 while passing each file through a transform stream (less to css stream) and parsing each file to css.
 this didn't changed the .less extension, we will change it later on.
